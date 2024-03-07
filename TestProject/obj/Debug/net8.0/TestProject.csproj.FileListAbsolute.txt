@@ -12,3 +12,4 @@ D:\RSCS\C-SHARP\TestProject\obj\Debug\net8.0\refint\TestProject.dll
 D:\RSCS\C-SHARP\TestProject\obj\Debug\net8.0\TestProject.pdb
 D:\RSCS\C-SHARP\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
 D:\RSCS\C-SHARP\TestProject\obj\Debug\net8.0\ref\TestProject.dll
+D:\RSCS\C-SHARP\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json

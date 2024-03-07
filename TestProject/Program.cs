@@ -27,7 +27,9 @@ foreach(string i in arr1){
     // System.Console.WriteLine(i);
 }
 
-int [] arrInt = [1,3,4,2,4,5,3,2,3,4,3,1];
-int sum = 0;
-foreach(int i in arrInt) {sum += i;}
-System.Console.WriteLine(sum);
+// int [] arrInt = [1,3,4,2,4,5,3,2,3,4,3,1];
+// int sum = 0;
+// foreach(int i in arrInt) {sum += i;}
+// System.Console.WriteLine(sum);
+
+System.Console.WriteLine("a" == "a");
