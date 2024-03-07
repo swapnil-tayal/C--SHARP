@@ -67,4 +67,18 @@ foreach(string i in arr1){
 
 int value1 = (int)1.5m; // upcast
 int value2 = Convert.ToInt32(1.5m); // downcast
-System.Console.WriteLine($" {value1} {value2}");
+// System.Console.WriteLine($" {value1} {value2}");
+
+string[] values = ["12.3", "45", "ABC", "11", "DEF"];
+string message = "";
+decimal total = 0;
+foreach(string i in values){
+
+    decimal num = 0;
+    if(decimal.TryParse(i, out num)){
+        total += num;
+    }else{
+        message += i; 
+    }
+}
+System.Console.WriteLine($"{total} {message}");
