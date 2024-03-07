@@ -45,8 +45,13 @@ foreach(string i in arr1){
 
 int value;
 // System.Console.WriteLine(value);
-value = 10;
-if(true){
-    System.Console.WriteLine(value);
-}
-System.Console.WriteLine(value);
+// value = 10;
+// if(true){
+//     System.Console.WriteLine(value);
+// }
+// System.Console.WriteLine(value);
+
+// max min ranges
+System.Console.WriteLine($"sbyte: {sbyte.MinValue} to {sbyte.MaxValue}");
+System.Console.WriteLine($"int: {int.MinValue} to {int.MaxValue}");
+System.Console.WriteLine($"sbyte: {long.MinValue} to {long.MaxValue}");
