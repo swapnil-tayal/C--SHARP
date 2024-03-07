@@ -32,4 +32,21 @@ foreach(string i in arr1){
 // foreach(int i in arrInt) {sum += i;}
 // System.Console.WriteLine(sum);
 
-System.Console.WriteLine("a" == "a");
+// System.Console.WriteLine("a" == "a");
+// System.Console.WriteLine("a" == "a ");
+
+// string pangram = "The quick brown fox jumps over the lazy dog.";
+// System.Console.WriteLine(!pangram.Contains("fox"));
+
+// conditional operator
+// int age = 18;
+// bool validVote = age >= 18 ? true : false;
+// System.Console.WriteLine($"you can vote - {validVote}");
+
+int value;
+// System.Console.WriteLine(value);
+value = 10;
+if(true){
+    System.Console.WriteLine(value);
+}
+System.Console.WriteLine(value);
