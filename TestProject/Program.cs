@@ -43,7 +43,7 @@ foreach(string i in arr1){
 // bool validVote = age >= 18 ? true : false;
 // System.Console.WriteLine($"you can vote - {validVote}");
 
-int value;
+// int value;
 // System.Console.WriteLine(value);
 // value = 10;
 // if(true){
@@ -52,6 +52,19 @@ int value;
 // System.Console.WriteLine(value);
 
 // max min ranges
-System.Console.WriteLine($"sbyte: {sbyte.MinValue} to {sbyte.MaxValue}");
-System.Console.WriteLine($"int: {int.MinValue} to {int.MaxValue}");
-System.Console.WriteLine($"sbyte: {long.MinValue} to {long.MaxValue}");
+// System.Console.WriteLine($"sbyte: {sbyte.MinValue} to {sbyte.MaxValue}");
+// System.Console.WriteLine($"int: {int.MinValue} to {int.MaxValue}");
+// System.Console.WriteLine($"long: {long.MinValue} to {long.MaxValue}");
+// System.Console.WriteLine($"uint: {uint.MinValue} to {uint.MaxValue}");
+// System.Console.WriteLine($"ulong: {ulong.MinValue} to {ulong.MaxValue}");
+
+// System.Console.WriteLine($"float: {float.MinValue} to {float.MaxValue}");
+// System.Console.WriteLine($"double: {double.MinValue} to {double.MaxValue}");
+// System.Console.WriteLine($"decimal: {decimal.MinValue} to {decimal.MaxValue}");
+
+// The term widening conversion means that you're attempting to convert a value from a data 
+// type that could hold less information to a data type that can hold more information
+
+int value1 = (int)1.5m; // upcast
+int value2 = Convert.ToInt32(1.5m); // downcast
+System.Console.WriteLine($" {value1} {value2}");
