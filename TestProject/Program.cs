@@ -114,3 +114,10 @@
 //     str = "bye";
 //     return;
 // }
+
+printInfo(id:1, age:19, name:"swapnil", gender:"male");
+
+void printInfo(int id, string name, int age, string gender="prefer not to say"){
+    System.Console.WriteLine($"student's name is {name}, id-{id}, age-{age}");
+    System.Console.WriteLine($"gender {gender}");
+}
